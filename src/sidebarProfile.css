@@ -1,0 +1,27 @@
+ .sidebarProfile{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;  
+    align-items: center;  
+}
+
+.sidebarphoto > img{
+    border-radius: 100%;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: #8899a6;
+    object-fit: covers;
+}
+
+.name{
+    font-weight: 800;
+}
+
+.username{
+    color: #8899a6;
+
+}
+
+.sidebarView > svg {
+    width: 50%;
+}

@@ -1,0 +1,27 @@
+.sidebarOption > svg{
+    width: 10% ;
+    padding: 20px;  
+}
+
+.sidebarOption{
+    display: flex;
+    margin: auto;
+    font-size: 1.2rem;
+    align-items: center;
+    cursor: pointer;
+    height: 60px;
+}
+
+
+.sidebarOption:hover{
+    background-color: #e1e4e6;
+    border-radius: 30px;
+    transition: currentColor 100ms ease-out;
+    width: fit-content;
+}
+
+.active{
+    color:#030303;
+   }
+
+

@@ -1,0 +1,42 @@
+.tweetPost{
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid var(--twitter-background);
+    padding: 10px 20px;
+
+}
+
+.tweetPost > .sidebarphoto > img{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.tweetBody{
+    padding: 10px;
+    flex: 1;
+}
+
+.tweetBody > img {
+    border-radius: 10px;
+}
+
+.tweetSubhead, .tweetTimestamp{
+    color: rgb(83, 100, 113);
+    font-size: 15px;
+    font-weight: 200;
+
+}
+
+.tweetHeadertext > h3{
+    font-weight: 600;
+    font-size: 15px;  
+}
+
+
+.tweetFooter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: rgb(83, 100, 113) 
+}
+

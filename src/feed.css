@@ -1,0 +1,18 @@
+.feed{
+    flex: 0.5;
+    border-right: 1px solid var(--twitter-background);
+    overflow-y: scroll;
+   
+}
+
+
+
+/* .createTweet{
+    border-bottom: 2px solid var(--twitter-background);
+
+
+} */
+
+
+
+

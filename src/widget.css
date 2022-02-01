@@ -1,0 +1,49 @@
+.widget{
+    flex: 0.3;
+    height: 100vh;  
+}
+
+.widegtInput {
+    display: flex;
+    align-items: center;
+    color: gray;
+    border-radius: 20px;
+    padding:10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border:none;
+    background-color: var(--twitter-background);
+}
+
+.searchInput{
+    width: 80%;
+    margin-left: 15px;
+    border:none;
+    background-color: var(--twitter-background);
+    font-size: 14px;
+}
+
+.widgetContainer{
+    background-color:#f5f8fa;
+    border-radius: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 15px;
+    
+
+}
+
+.widegetSubhead > h3{
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.widegetSubhead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

@@ -1,0 +1,28 @@
+.sidebar{
+    flex: 0.2;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 1px solid var(--twitter-background);
+}
+
+.sidebar > svg {
+    width: 10%;
+    color: var(--twitter-color);
+    padding-left: 20px;
+}
+
+.tweetBtn{
+    background-color: var(--twitter-color);
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    padding: 15px 80px;
+    margin-top: 20px;
+    font-weight: 800;
+    font: 1rem;
+    text-transform: inherit;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+}
+
